@@ -2,12 +2,19 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #18212d;
-    color: white;
-    
-    
+    color: white;    
 }
 
-.white {
+.main{
+    border: 2px solid white;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 330px;
+    border-radius: 20px;
+}
+
+
+.main-Title {
     color: white;
 }
 
@@ -36,8 +43,21 @@ button {
     margin: 5px;
     display: flex;
     margin-left:52px;
-    justify-content: center;
+    justify-content:space-between;
     align-items:center;
-    
+}
+
+.copy-button{
+    cursor: pointer;
+    color: #55F991;
+    margin-right: 1em;
+}
+
+.copy-button.hidden {
+    display: none;
+}
+
+.copy-button.copied {
+    color: rgb(163, 87, 235);
 }
 
