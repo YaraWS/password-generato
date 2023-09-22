@@ -1,211 +1,59 @@
 /* ====================
    MEDIA QUERIES
    ==================== */
- /* Ipads and Tablets */
-@media(min-width:768px){
-  
-  .hamburger{
-    display: none;
-    cursor: pointer;
-  }
-
-  a{
-    font-size: 16px;
-  }
-
-  .nav-menu{
-    position: fixed;
-    top: 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 70px;
-    background: #b0bbaf;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  a{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 28px;
-  }
-
-  .hero{
-    background: #929E90 url("/img/hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .about-me{
-    width: 100%;
-  }
-
-  .about-me-text{
-    max-width: 30em;
-  }
-
-  .project-gif{
-    max-width: 45em;
-  }
-
-  .project-text{
-    max-width: 30em;
-  }
-
-  form{
-    max-width: 150%;
-    margin: 20px auto;
-  }
-}
-
-
-@media screen and (min-width:1080px){
-  .hero{
-    background: #929E90 url("/img/medium-hero.png");
-    min-height: 20.313rem; 
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
- .about-me{
-  margin-top: 9em;
-  margin-bottom: 5em;
-  width: 100%;
- }
-
- .about-me-tittle{
-    margin-top: 0em;
-    margin-bottom: 14em;
-  }
-
-  form{
-    max-width: 55%;
-  }
-}
-
 @media screen and (min-width:1920px){
-  form{
-    max-width: 37%;
-  }
-  .about-me{
-    width: 100%;
-  }
+
+.container{
+width: 25%;
+}
+
+h1{
+  font-size: 2.3rem;
+}
+
+button{
+  font-size: 1.5rem;
+}
+
+.input{
+  font-size: 2rem;
+}
+
+input[type=number]{
+ font-size: 1.5rem;
+ margin-left: 0.3125rem;
+}
+
+.numberInput{
+  font-size: 2rem;
+}
+
+.passwords {
+  font-size: 1.5rem;
+  width: 24rem;
+  padding: 0.8rem;
+  margin: 0.3125rem;
+  margin-left:3.25rem;
+}
+
+.top{
+  margin-bottom: 1rem;
+}
+
+.top p{
+  font-size: 2rem;
+}
+ 
 }
 
 
 /* 4k Screen */
 @media screen and (min-width:3840px){
-  /* Header */
-  a{
-    font-size: 2.5rem;
-    margin-top: 2rem;
-  }
-  
-  .hero{
-    background: #929E90 url("/img/biggest-hero.gif");
-    min-height: 50rem; 
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .photo{
-    width:20%;
-    height: 20%;
-  }
-
-   /* About Me */
-  .about-me{
-    margin-bottom: 15em;
-    width: 100%;
-  }
-
-  .about-me h1{
-    color: #6d573e;
-    font-size: 7em;
-  }   
-
-  .about-me h2{
-  font-size: 3rem;
-  margin: 2rem;
-  }
-
-  .about-me-tittle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10em;
-    margin-bottom: 49em;
-  }
-
-  .tittles{
-    font-size: 3rem; 
-  }
-
-  .about-me-text{
-    font-size: 2.5rem;
-    line-height: 2em;
-    max-width: 30%;
-  }
-
-  .about-me-text h1{
-    font-size: 3rem;
-  }
-
-  /* Projects */
-  .project-gif{
-    max-width: 30%;
-  }
-
-  .project{
-    max-width: 100%;
-    /* border: 3px solid red; */
-  }
-
-  .project-text {
-    max-width: 30%;
-    max-height: 100%;
-    font-size: 2.5rem;
-    line-height: 2em;
-  }
-
-  /* Technologies Tags */
-  .about-me-text p:nth-child(2) span{
-    font-size: 2.3rem;
-  }
-
-  .button-links{
-    padding: 1.25rem;
-    font-size: 2rem;
- }
-
-  form{
-    max-width: 30%;
-  }
-
-  form,
-  .form-input{
-    font-size: 2.5rem;
-  }
+  .container{
+    width: 13%;
+    }
 
 
-  .submit-btn{
-    width: 15%;
-    padding: 1.56rem;
-    font-size: 2rem;
-  }
-
-  .user-message{
-    font-size: 2.5rem;
-    line-height: 2em;
-  }
-
-  .social-links{
-    font-size: 6rem;
-   }
   
 }
 
